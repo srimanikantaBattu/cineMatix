@@ -1,11 +1,10 @@
 import React from 'react'
-import Open from './components/Open'
-import Register from './components/Register'
+import Theatres from './components/admin/Theatres'
+
 function App() {
   return (
     <div className="">
-      {/* <Register></Register> */}
-      <Register/>
+      <Theatres/>
     </div>
   )
 }
